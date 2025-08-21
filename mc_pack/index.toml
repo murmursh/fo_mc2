@@ -1,9 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "../mods/distanthorizons.pw.toml"
-hash = "12411248e3e7fcdfac19c705e0f4abadc1409bb8822db0e5067b5f1f42db21af"
-metafile = true
+file = "config/DistantHorizons.toml"
+hash = "50ec5a0edb8f94104524832cd57d0fa3a2c932c5586f8a728d1763d7e5b5fa81"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"

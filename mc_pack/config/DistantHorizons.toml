@@ -1,0 +1,4 @@
+# Distant Horizons config file
+
+[general]
+render_distance = 32
