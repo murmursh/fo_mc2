@@ -49,3 +49,4 @@
 | Yet Another Config Lib v3 | Yes | Configuration library, supports server-side environments. |
 | YOSBR | Yes | Compatible with both client and server for default config files. |
 | Zoomify | No | Client-side for zoom functionality. |
+| Distant Horizons | Yes | Server-side for increased render distance. |
