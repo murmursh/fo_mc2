@@ -117,6 +117,11 @@ hash = "d22ad9850a0689b5dad48202626fd6ff1955d247649ecb0c02fc897d363fd980"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "39d2695bf316d7d48d21da0ae6b38ea3e74c47c3b07c93bbade4dd753df90321"
+metafile = true
+
+[[files]]
 file = "mods/capes.pw.toml"
 hash = "85aca260eb2796e6fdda065cb8cfca631dc64b28d91cb869c5493c1174e1afa9"
 metafile = true
@@ -289,6 +294,11 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "25f335309f4e6d054e926aa9dbe1364e4925826f03efb543de45e884df7d5086"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "fcb2b48e962361d11130754a8e2d524a5e5fb4025e18f0135096a95aabc5cb24"
 metafile = true
 
 [[files]]
