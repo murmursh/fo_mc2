@@ -14,9 +14,6 @@ WORKDIR /data
 # Copy modpack files
 COPY mc_pack/ .
 
-# Add a build argument to force a cache refresh for the following commands
-ARG CACHE_BUSTER=1
-
 # Refresh packwiz
 RUN /root/go/bin/packwiz refresh
 
@@ -24,7 +21,7 @@ RUN /root/go/bin/packwiz refresh
 RUN /root/go/bin/packwiz modrinth export -o /usr/share/nginx/html/bs_craft-9.0.0.mrpack
 
 # Copy refreshed mc_pack to nginx html dir
-COPY ./mc_pack/ /usr/share/nginx/html/
+RUN cp -r . /usr/share/nginx/html/
 
 # Copy index.html as well
 COPY index.html /usr/share/nginx/html/
