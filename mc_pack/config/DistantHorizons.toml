@@ -125,7 +125,7 @@ _version = 3
 		# Expected Compression Ratio: 0.2
 		# Estimated average DTO read speed: 13.29 ms
 		# Estimated average DTO write speed: 70.95 ms
-		dataCompression = "LZMA2"
+		dataCompression = "LZ4"
 		#
 		# Enabling this will drastically increase chunk processing time
 		# and you may need to increase your CPU load to handle it.
@@ -164,7 +164,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 6
+		numberOfThreads = 72
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -249,7 +249,7 @@ _version = 3
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		distantGeneratorMode = "FEATURES"
+		distantGeneratorMode = "INTERNAL_SERVER"
 		#
 		# How should distant generator progress be displayed? 
 		# 
@@ -257,7 +257,7 @@ _version = 3
 		# CHAT 
 		# LOG 
 		# DISABLED
-		showGenerationProgress = "OVERLAY"
+		showGenerationProgress = "LOG"
 		#
 		# How often should the distant generator progress be displayed?
 		generationProgressDisplayIntervalInSeconds = 2
@@ -287,7 +287,7 @@ _version = 3
 			updateBranch = "AUTO"
 			#
 			# Automatically check for updates on game launch?
-			enableAutoUpdater = true
+			enableAutoUpdater = false
 			#
 			# Should Distant Horizons silently, automatically download and install new versions? 
 			# This setting is force disabled on dedicated servers for stability reasons.
