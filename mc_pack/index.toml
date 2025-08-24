@@ -2,7 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "50ec5a0edb8f94104524832cd57d0fa3a2c932c5586f8a728d1763d7e5b5fa81"
+hash = "7c06fd4e48fb89035bc640d411ecd7a2c04ef05c758bd6b5270c1b6f157f0e2d"
+
+[[files]]
+file = "config/c2me.toml"
+hash = "9b2199521e5cfc1aed62ecdeb81452203ddc4d01695409f0071096c67784abd7"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -128,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "81ee90c41a92e68384f96e8fa4ab01dbf74dc09be1fc78f6cebf013e362a5123"
+hash = "3958b7222192fa50fc47cec1d58425fbf971667565ae7948215e542a9526e273"
 metafile = true
 
 [[files]]
