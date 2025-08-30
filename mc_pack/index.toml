@@ -157,11 +157,6 @@ hash = "34fc0845727b08bc39e5b56444e0695b55f6a5471380f2d1d40c5548105da28e"
 metafile = true
 
 [[files]]
-file = "mods/dsbg.pw.toml"
-hash = "b51a13c36a4927bfd8fd52a9aa9005e47a39b1abfb3244bbc7d45feac33af611"
-metafile = true
-
-[[files]]
 file = "mods/dynamic_fps.pw.toml"
 hash = "4effaea1cdc0ccd0de4a94ab435cc3cb22085933fca7e1dd35b9fb8953a1ce9e"
 metafile = true
