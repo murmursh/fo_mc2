@@ -6,7 +6,7 @@ _version = 3
 	generationBoundsZ = 0
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 256
+	realTimeUpdateDistanceRadiusInChunks = 1024
 	#
 	# Prefix of the level keys sent to the clients.
 	# If the mod is running behind a proxy, each backend should use a unique value.
@@ -15,13 +15,13 @@ _version = 3
 	#
 	# Defines the distance allowed to be synchronized around the player. 
 	# Should be the same or larger than maxGenerationRequestDistance in most cases.
-	maxSyncOnLoadRequestDistance = 4096
+	maxSyncOnLoadRequestDistance = 1024
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
 	synchronizeOnLoad = true
 	#
 	# Defines the distance allowed to generate around the player.
-	maxGenerationRequestDistance = 4096
+	maxGenerationRequestDistance = 1024
 	#
 	# Defines the X-coordinate of the central point for generation boundaries, in blocks.
 	generationBoundsX = 0
@@ -32,11 +32,11 @@ _version = 3
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
-	generationRequestRateLimit = 20
+	generationRequestRateLimit = 100
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
-	syncOnLoadRateLimit = 50
+	syncOnLoadRateLimit = 100
 	#
 	# Defines the radius around the central point within which generation is allowed, in blocks. 
 	# If this value is set to 0, generation bounds are disabled.
@@ -44,7 +44,7 @@ _version = 3
 	#
 	# Maximum speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
-	maxDataTransferSpeed = 500
+	maxDataTransferSpeed = 0
 	#
 	# If true, clients will receive real-time LOD updates for chunks outside the client's render distance.
 	enableRealTimeUpdates = true
@@ -59,7 +59,7 @@ _version = 3
 		# When enabled on the client, this allows loading lower detail levels as needed to speed up terrain generation.
 		# This must also be enabled on the server; otherwise, it will have no effect.
 		# For better performance when switching LOD detail levels, enabling [upsampleLowerDetailLodsToFillHoles] is recommended.
-		enableNSizedGeneration = false
+		enableNSizedGeneration = true
 
 [common]
 
@@ -125,7 +125,7 @@ _version = 3
 		# Expected Compression Ratio: 0.2
 		# Estimated average DTO read speed: 13.29 ms
 		# Estimated average DTO write speed: 70.95 ms
-		dataCompression = "LZMA2"
+		dataCompression = "LZ4"
 		#
 		# Enabling this will drastically increase chunk processing time
 		# and you may need to increase your CPU load to handle it.
@@ -164,7 +164,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 6
+		# numberOfThreads = 72
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -249,7 +249,7 @@ _version = 3
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		distantGeneratorMode = "FEATURES"
+		distantGeneratorMode = "INTERNAL_SERVER"
 		#
 		# How should distant generator progress be displayed? 
 		# 
@@ -257,7 +257,7 @@ _version = 3
 		# CHAT 
 		# LOG 
 		# DISABLED
-		showGenerationProgress = "OVERLAY"
+		showGenerationProgress = "LOG"
 		#
 		# How often should the distant generator progress be displayed?
 		generationProgressDisplayIntervalInSeconds = 2
@@ -287,7 +287,7 @@ _version = 3
 			updateBranch = "AUTO"
 			#
 			# Automatically check for updates on game launch?
-			enableAutoUpdater = true
+			enableAutoUpdater = false
 			#
 			# Should Distant Horizons silently, automatically download and install new versions? 
 			# This setting is force disabled on dedicated servers for stability reasons.
@@ -629,7 +629,7 @@ _version = 3
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 4096
 				#
 				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
@@ -791,5 +791,5 @@ _version = 3
 			# IP_ONLY: Example: "192.168.1.40" 
 			# NAME_IP: Example: "Minecraft Server IP 192.168.1.40" 
 			# NAME_IP_PORT: Example: "Minecraft Server IP 192.168.1.40:25565"NAME_IP_PORT_MC_VERSION: Example: "Minecraft Server IP 192.168.1.40:25565 GameVersion 1.16.5"
-			serverFolderNameMode = "NAME_ONLY"
+			serverFolderNameMode = "NAME_IP_PORT"
 
