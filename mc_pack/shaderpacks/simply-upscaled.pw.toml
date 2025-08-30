@@ -1,0 +1,13 @@
+name = "Simply Upscaled"
+filename = "Simply_Upscaled (v0.4.3).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yhuqxlbn/versions/sbTo5Ox6/Simply_Upscaled%20%28v0.4.3%29.zip"
+hash-format = "sha512"
+hash = "8db3d7a8fde1e391e3571b871bc20466d6198825ff244ca65c77f0dca76cfd49c111fc0f0d51974bb4a5a1a619f0928235a9f8ca9538d849d7d04e1863ea17f8"
+
+[update]
+[update.modrinth]
+mod-id = "yhuqxlbn"
+version = "sbTo5Ox6"

@@ -1,0 +1,13 @@
+name = "Aurora's Shaders"
+filename = "Aurora's Shaders.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hgAKxFQg/versions/dF60Go3s/Aurora%27s%20Shaders.zip"
+hash-format = "sha512"
+hash = "8c54bb4ec16477f4e632603069b353988f3947b56349db9905965c817eae02aac5031aefc6857a2adb0800549ac5eaec1b31fc8398fdbff11a785c2f2322b09b"
+
+[update]
+[update.modrinth]
+mod-id = "hgAKxFQg"
+version = "dF60Go3s"

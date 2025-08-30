@@ -1,0 +1,13 @@
+name = "BrighterAccessibility"
+filename = "BrighterAccessibility.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KqTtpEHg/versions/sNKwTKNl/BrighterAccessibility.zip"
+hash-format = "sha512"
+hash = "54c62a8e07a936c5a80f39fb1fc947df5cd40ec87c81a5ffbda3fcd15db9260e41977df01a405a64020194f42e82d97963a79f0b64468d6de94240ec0dff035f"
+
+[update]
+[update.modrinth]
+mod-id = "KqTtpEHg"
+version = "sNKwTKNl"

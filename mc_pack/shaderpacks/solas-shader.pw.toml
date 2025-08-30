@@ -1,0 +1,13 @@
+name = "Solas Shader"
+filename = "Solas Shader V2.9b.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EpQFjzrQ/versions/XnmvIKj3/Solas%20Shader%20V2.9b.zip"
+hash-format = "sha512"
+hash = "ac5ff7b8df0984daca90be7700af4d7ca589e9d3136fdee33fb340087ab69ea9a1d6073ecfa050f9ccfffafdc1cc95316bbfd89bb60ac375870ff0aa5d002827"
+
+[update]
+[update.modrinth]
+mod-id = "EpQFjzrQ"
+version = "XnmvIKj3"

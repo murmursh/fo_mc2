@@ -1,0 +1,13 @@
+name = "Radiance"
+filename = "Radiance-v6.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ljtt6YTP/versions/awpUq1yB/Radiance-v6.0.zip"
+hash-format = "sha512"
+hash = "97014633a7431511583f9fd04422b9fdecc3daad0af57caf3c41885d43b77f9e5a0b7a0322cc7d7f7c32811c1cea7bf52ab82fa66a8176478e6d3489c4bab3c8"
+
+[update]
+[update.modrinth]
+mod-id = "ljtt6YTP"
+version = "awpUq1yB"

@@ -1,0 +1,13 @@
+name = "Nwoof's Wynn Shader"
+filename = "§6§l§k~§r §9§lNwoof's §a§lWynn §9§lShader §4Alpha§7-§40§7.§43§7.§44 §6§l§k~.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/K8XDv70D/versions/D6hTAfNV/%C2%A76%C2%A7l%C2%A7k~%C2%A7r%20%C2%A79%C2%A7lNwoof%27s%20%C2%A7a%C2%A7lWynn%20%C2%A79%C2%A7lShader%20%C2%A74Alpha%C2%A77-%C2%A740%C2%A77.%C2%A743%C2%A77.%C2%A744%20%C2%A76%C2%A7l%C2%A7k~.zip"
+hash-format = "sha512"
+hash = "57eb2a8fba9f629def2c0c0be3bd4650ec086adfe80b328a9715a6b4bb7bb9d1414f57c3b15577e6729a5d5a64561801a722bb51039bbfc567587008a583ec2b"
+
+[update]
+[update.modrinth]
+mod-id = "K8XDv70D"
+version = "D6hTAfNV"

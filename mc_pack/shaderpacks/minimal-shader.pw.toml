@@ -1,0 +1,13 @@
+name = "MINIMAL"
+filename = "MINIMAL.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/s55p5822/versions/xA0NnuZl/MINIMAL.zip"
+hash-format = "sha512"
+hash = "874fb8f8014d4fe0e3458b0dcc0d454182ecf56be1a87079029be2d65654d15cf73ea724413b243ec94d5bc026e63778309c489cd6cce62dc39092165c993412"
+
+[update]
+[update.modrinth]
+mod-id = "s55p5822"
+version = "xA0NnuZl"

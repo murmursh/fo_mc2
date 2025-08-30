@@ -1,0 +1,13 @@
+name = "Pegasus Shaders"
+filename = "Pegasus Vx (v0.3.4).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1BZ68dI8/versions/cdz0LR8N/Pegasus%20Vx%20%28v0.3.4%29.zip"
+hash-format = "sha512"
+hash = "81e9ed459237a9ae4019c346800cc6c521c8922a94ae7827d035c3f90ad1cb230043c4d2da954cce7e96cd3efb43beb8efd8490f2d3501e5b13dbac56893cf45"
+
+[update]
+[update.modrinth]
+mod-id = "1BZ68dI8"
+version = "cdz0LR8N"

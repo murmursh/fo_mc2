@@ -1,0 +1,13 @@
+name = "Stracciatella Shaders"
+filename = "Stracciatella Shaders v1.6.2 by DrDesten.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7FjF4us6/versions/1MD7UcBe/Stracciatella%20Shaders%20v1.6.2%20by%20DrDesten.zip"
+hash-format = "sha512"
+hash = "3cf9e818a9629762ac5971c1d136ccceae7a4b865c3f7cd0ddeaaea0b59b4c92ee1a6b9edb624263dcde1857df49902414c9e91b4cc1ccff6aa34e834d1e0355"
+
+[update]
+[update.modrinth]
+mod-id = "7FjF4us6"
+version = "1MD7UcBe"
