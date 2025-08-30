@@ -237,6 +237,11 @@ hash = "23998d68efdfdb7fc6809eb301e7be2ab82cde363884ee1d1075b682e1f2b495"
 metafile = true
 
 [[files]]
+file = "mods/lithosphere.pw.toml"
+hash = "337093b94742d334ad349d4fbfe1b74a9b885784ac6d43432896b3dc527260a9"
+metafile = true
+
+[[files]]
 file = "mods/mixintrace.pw.toml"
 hash = "0a8e6a58962ba40f696a44cb2d02355490bc831b49509f8083e3e7bc89b40052"
 metafile = true
@@ -304,6 +309,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "be0c8881821da897824770b2a71f0f3765a233eda69b295fa5b92ffe8a25014c"
+metafile = true
+
+[[files]]
+file = "mods/still-life.pw.toml"
+hash = "10abaaacef70467dc09b62aa2f28cc2242be181d3cd9f585d1c0383d38eb87b8"
 metafile = true
 
 [[files]]
