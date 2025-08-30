@@ -6,7 +6,7 @@ _version = 3
 	generationBoundsZ = 0
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 256
+	realTimeUpdateDistanceRadiusInChunks = 1024
 	#
 	# Prefix of the level keys sent to the clients.
 	# If the mod is running behind a proxy, each backend should use a unique value.
@@ -15,13 +15,13 @@ _version = 3
 	#
 	# Defines the distance allowed to be synchronized around the player. 
 	# Should be the same or larger than maxGenerationRequestDistance in most cases.
-	maxSyncOnLoadRequestDistance = 4096
+	maxSyncOnLoadRequestDistance = 1024
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
 	synchronizeOnLoad = true
 	#
 	# Defines the distance allowed to generate around the player.
-	maxGenerationRequestDistance = 4096
+	maxGenerationRequestDistance = 1024
 	#
 	# Defines the X-coordinate of the central point for generation boundaries, in blocks.
 	generationBoundsX = 0
@@ -36,7 +36,7 @@ _version = 3
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
-	syncOnLoadRateLimit = 50
+	syncOnLoadRateLimit = 100
 	#
 	# Defines the radius around the central point within which generation is allowed, in blocks. 
 	# If this value is set to 0, generation bounds are disabled.
@@ -59,7 +59,7 @@ _version = 3
 		# When enabled on the client, this allows loading lower detail levels as needed to speed up terrain generation.
 		# This must also be enabled on the server; otherwise, it will have no effect.
 		# For better performance when switching LOD detail levels, enabling [upsampleLowerDetailLodsToFillHoles] is recommended.
-		enableNSizedGeneration = false
+		enableNSizedGeneration = true
 
 [common]
 
@@ -791,5 +791,5 @@ _version = 3
 			# IP_ONLY: Example: "192.168.1.40" 
 			# NAME_IP: Example: "Minecraft Server IP 192.168.1.40" 
 			# NAME_IP_PORT: Example: "Minecraft Server IP 192.168.1.40:25565"NAME_IP_PORT_MC_VERSION: Example: "Minecraft Server IP 192.168.1.40:25565 GameVersion 1.16.5"
-			serverFolderNameMode = "NAME_ONLY"
+			serverFolderNameMode = "NAME_IP_PORT"
 
