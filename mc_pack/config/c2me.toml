@@ -15,7 +15,7 @@ version = 3
 #  This is used when the parallelism isn't overridden.
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb
 # 
-defaultGlobalExecutorParallelismExpression = "cpus-1"
+defaultGlobalExecutorParallelismExpression = "default"
 # (Default: 4) Sets the thread priority for worker threads
 # 
 # References:

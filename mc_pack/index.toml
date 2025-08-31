@@ -2,11 +2,13 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "8b1b1ccebc1b6bd823397210ef5b233d592568863204984dc48c8ca0051386d8"
+hash = "199c2bb33e25a5f0bfcbee912e3f6b8808fac4ab68a42cc911d5f5104b3f583f"
+preserve = true
 
 [[files]]
 file = "config/c2me.toml"
-hash = "9b2199521e5cfc1aed62ecdeb81452203ddc4d01695409f0071096c67784abd7"
+hash = "aa2185c74844421066d21735be04c05ec3fa8253e5e8f6410d1d5628cc79c751"
+preserve = true
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
